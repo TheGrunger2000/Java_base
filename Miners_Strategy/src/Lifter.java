@@ -1,0 +1,2 @@
+class Lifter extends Machine {
+}
