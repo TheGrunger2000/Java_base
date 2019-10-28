@@ -1,0 +1,2 @@
+class Bulldozer extends Machine {
+}

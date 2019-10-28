@@ -1,0 +1,2 @@
+class Tractor extends Machine {
+}
