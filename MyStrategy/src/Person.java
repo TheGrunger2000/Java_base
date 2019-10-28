@@ -11,6 +11,10 @@ abstract class Person {
         actBehavior.act();
     }
 
+    void setActBehavior(ActBehavior ab){
+        actBehavior = ab;
+    }
+
     public void walk(){
         System.out.println("I go");
     }

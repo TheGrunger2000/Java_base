@@ -8,5 +8,8 @@ public class Program {
 
         Person dude = new Dude();
         dude.performAct();
+
+        dude.setActBehavior(new DrinkWhiteRussian());
+        dude.performAct();
     }
 }
