@@ -3,29 +3,29 @@ abstract class Machine {
     private WorkBehavior workBehavior;
     private ActBehavior actBehavior;
 
-    Machine(){
+    Machine() {
         actBehavior = new DoNothing();
         workBehavior = new Rest();
     }
 
-    void display(){
+    void display() {
         actBehavior.act();
         workBehavior.work();
     }
 
-    void performAct(){
+    void performAct() {
         actBehavior.act();
     }
 
-    void performWork(){
+    void performWork() {
         workBehavior.work();
     }
 
-    void setWorkBehavior(WorkBehavior wb){
+    void setWorkBehavior(WorkBehavior wb) {
         workBehavior = wb;
     }
 
-    void setActBehavior(ActBehavior ab){
+    void setActBehavior(ActBehavior ab) {
         actBehavior = ab;
     }
 }
