@@ -4,6 +4,7 @@ public class Program {
 
         somebody = new GabeNewel();
         somebody.say();
+        // somebody.mysteryThoughts();
 
         somebody = new ToddHoward();
         somebody.say();
