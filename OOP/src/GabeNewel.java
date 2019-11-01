@@ -1,10 +1,10 @@
 class GabeNewel extends Programmer {
     @Override
     void say() {
-        System.out.println("Я создал Valve, D.O.T.A 2, Тф2 и я ах...л в конец");
+        System.out.println("Я создал Valve, D.O.T.A 2, Тф2");
     }
 
     void mysteryThoughts() {
-        System.out.println("Третья Халва не будет когда либо создана! С...СИТЕ Х..Й");
+        System.out.println("Третья Халва не будет когда либо создана!");
     }
 }
